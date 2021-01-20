@@ -1,6 +1,7 @@
 # Builder Pattern
 
 Roles:
+
 John Peter: Director
 Daniel Leskiewicz: Computer 
 Derek Gauger: ConcreateBuilder
