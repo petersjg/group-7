@@ -1,2 +1,3 @@
-public class Builder {
+public interface Builder {
+    Computer buildComputer();
 }
