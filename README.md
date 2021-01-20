@@ -3,9 +3,13 @@
 Roles:
 
 John Peter: Director
+
 Daniel Leskiewicz: Computer 
+
 Derek Gauger: ConcreateBuilder
+
 Daniel, John, Derek: Main
+
 
 Presentation Outline:
 1) Go over the problem
