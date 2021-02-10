@@ -7,6 +7,6 @@ public class Director {
     }
 
     public void construct(){
-        builder.buildComputer;
+        builder.buildComputer();
     }
 }
