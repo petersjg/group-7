@@ -6,8 +6,7 @@ public class Director {
         this.builder = builder;
     }
 
-    public Builder construct(){
-        //return builder.buildComputer;
-        return null;
+    public void construct(){
+        builder.buildComputer;
     }
 }
