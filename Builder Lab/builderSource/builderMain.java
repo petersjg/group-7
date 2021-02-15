@@ -9,8 +9,6 @@ public class builderMain {
         Director director1000Dollar = new Director(builder1000Dollar);
         Director director1500Dollar = new Director(builder1500Dollar);
 
-        
+
     }
-
-
 }

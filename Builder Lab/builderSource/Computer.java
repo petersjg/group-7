@@ -14,7 +14,6 @@ public class Computer {
         this.Motherboard = Motherboard;
     }
 
-
     public String getCPU() {
         return CPU;
     }
