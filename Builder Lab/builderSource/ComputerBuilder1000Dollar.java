@@ -3,47 +3,47 @@ public class ComputerBuilder1000Dollar implements ComputerBuilder{
 
     @Override
     public void setCPU() {
-        computer.setCPU("Medium Quality CPU");
+        this.CPU = "Medium Quality CPU";
     }
 
     @Override
     public void setGPU() {
-        computer.setGPU("Medium Quality GPU");
+        this.GPU = "Medium Quality GPU";
     }
 
     @Override
     public void setPSU() {
-        computer.setPSU("Medium Quality PSU");
+        this.PSU = "Medium Quality PSU";
     }
 
     @Override
     public void setCase() {
-        computer.setCase("Medium Quality Case");
+        this.Case = "Medium Quality Case";
     }
 
     @Override
     public void setRAM() {
-        computer.setRAM("Medium Quality RAM");
+        this.RAM = "Medium Quality RAM";
     }
 
     @Override
     public void setStorage() {
-        computer.setStorage("Medium Quality Storage");
+        this.Storage = "Medium Quality Storage";
     }
 
     @Override
     public void setFans() {
-        computer.setFans("Medium Quality Fans");
+        this.Fans = "Medium Quality Fans";
     }
 
     @Override
     public void setCooler() {
-        computer.setCooler("Medium Quality Cooler");
+        this.Cooler = "Medium Quality Cooler";
     }
 
     @Override
     public void setMotherBoard() {
-        computer.setMotherboard("Medium Quality Motherboard");
+        this.Motherboard = "Medium Quality Motherboard";
     }
 
     @Override
