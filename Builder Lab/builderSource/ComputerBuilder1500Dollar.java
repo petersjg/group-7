@@ -8,7 +8,7 @@ public class ComputerBuilder1500Dollar implements ComputerBuilder{
 
     @Override
     public void setGPU() {
-        computer.setCPU("High Quality GPU");
+        computer.setGPU("High Quality GPU");
     }
 
     @Override
