@@ -9,6 +9,5 @@ public interface ComputerBuilder{
     void setFans();
     void setCooler();
     void setMotherBoard();
-
     Computer getResult();
 }

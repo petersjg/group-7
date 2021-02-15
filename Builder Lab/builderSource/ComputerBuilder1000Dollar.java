@@ -48,6 +48,6 @@ public class ComputerBuilder1000Dollar implements ComputerBuilder{
 
     @Override
     public Computer getResult() {
-        return null;
+        return new Computer(CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard);
     }
 }
