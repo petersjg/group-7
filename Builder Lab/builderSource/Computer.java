@@ -1,6 +1,19 @@
 public class Computer {
     private String CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard;
 
+    public Computer(String CPU, String GPU, String PSU, String Case, String RAM, String Storage,
+                    String Fans, String Cooler, String Motherboard){
+        this.CPU = CPU;
+        this.GPU = GPU;
+        this.PSU = PSU;
+        this.Case = Case;
+        this.RAM = RAM;
+        this.Storage = Storage;
+        this.Fans = Fans;
+        this.Cooler = Cooler;
+        this.Motherboard = Motherboard;
+    }
+
 
     public String getCPU() {
         return CPU;

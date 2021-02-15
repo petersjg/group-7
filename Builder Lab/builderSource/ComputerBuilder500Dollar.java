@@ -1,5 +1,5 @@
 public class ComputerBuilder500Dollar implements ComputerBuilder{
-    Computer computer;
+    private String CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard;
 
     @Override
     public void setCPU() {
@@ -44,5 +44,10 @@ public class ComputerBuilder500Dollar implements ComputerBuilder{
     @Override
     public void setMotherBoard() {
         computer.setMotherboard("Low Quality Motherboard");
+    }
+
+    @Override
+    public Computer getResult() {
+        return new Computer()
     }
 }
