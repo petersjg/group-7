@@ -86,7 +86,7 @@ public class Computer {
         Motherboard = motherboard;
     }
 
-    public String printConfig() {
+    public void printConfig() {
         StringBuilder output = new StringBuilder();
         output.append(CPU);
         output.append("\n");
@@ -107,6 +107,6 @@ public class Computer {
         output.append(Motherboard);
         output.append("\n");
 
-        return output.toString();
+        System.out.println(output.toString());
     }
 }

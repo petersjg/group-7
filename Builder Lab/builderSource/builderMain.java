@@ -39,7 +39,7 @@ public class builderMain {
         scanner = new Scanner(System.in);
         while(!dialogEnd){
             System.out.println("The current configuration: \n");
-            System.out.println(computer.printConfig());
+            computer.printConfig();
             if(!answer.equalsIgnoreCase("n")){
                 System.out.println("Would you like to change this configuration? y/n");
                 answer = scanner.nextLine();
@@ -49,7 +49,7 @@ public class builderMain {
             if(answer.equalsIgnoreCase("y")){
                 System.out.println("What item would you like to change?");
                 changePart(scanner);
-                System.out.println(computer.printConfig());
+                computer.printConfig();
                 System.out.println("Is this configuration to your satisfaction? y/n");
                 answer = scanner.nextLine();
                 if(answer.equalsIgnoreCase("y")){
