@@ -88,6 +88,8 @@ public class Computer {
 
     public void printConfig() {
         StringBuilder output = new StringBuilder();
+        output.append(this);
+        output.append("\n");
         output.append(CPU);
         output.append("\n");
         output.append(GPU);
