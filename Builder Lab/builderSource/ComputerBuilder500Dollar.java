@@ -3,7 +3,7 @@ public class ComputerBuilder500Dollar implements ComputerBuilder{
 
     @Override
     public void setCPU() {
-        CPU = "Low Quality CPU";
+        CPU =  "Low Quality CPU";
     }
 
     @Override
