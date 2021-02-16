@@ -85,4 +85,28 @@ public class Computer {
     public void setMotherboard(String motherboard) {
         Motherboard = motherboard;
     }
+
+    public String printConfig() {
+        StringBuilder output = new StringBuilder();
+        output.append(CPU);
+        output.append("\n");
+        output.append(GPU);
+        output.append("\n");
+        output.append(PSU);
+        output.append("\n");
+        output.append(Case);
+        output.append("\n");
+        output.append(RAM);
+        output.append("\n");
+        output.append(Storage);
+        output.append("\n");
+        output.append(Fans);
+        output.append("\n");
+        output.append(Cooler);
+        output.append("\n");
+        output.append(Motherboard);
+        output.append("\n");
+
+        return output.toString();
+    }
 }

@@ -50,4 +50,5 @@ public class ComputerBuilder1000Dollar implements ComputerBuilder{
     public Computer getResult() {
         return new Computer(CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard);
     }
+
 }
