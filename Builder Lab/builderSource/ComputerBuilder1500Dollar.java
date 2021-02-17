@@ -1,3 +1,6 @@
+/**
+ * Basic 1500 dollar pc preset implementing computerBuilder interface
+ */
 public class ComputerBuilder1500Dollar implements ComputerBuilder{
     private String CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard;
 

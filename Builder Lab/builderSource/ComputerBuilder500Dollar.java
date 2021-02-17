@@ -1,3 +1,7 @@
+/**
+ * computer builder for a cheap, 500 dollar PC using low quality parts.
+ * This implements computerBuilder
+ */
 public class ComputerBuilder500Dollar implements ComputerBuilder{
     private String CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard;
 

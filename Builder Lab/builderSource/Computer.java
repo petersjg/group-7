@@ -1,6 +1,19 @@
 public class Computer {
     private String CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard;
 
+
+    /**
+     * Basic computer class which has getters, setters and stores what is a computor
+     * @param CPU the cpu
+     * @param GPU the gpu
+     * @param PSU the pse
+     * @param Case the case
+     * @param RAM the ram
+     * @param Storage the storage
+     * @param Fans the fans
+     * @param Cooler the cooler
+     * @param Motherboard the motherboard
+     */
     public Computer(String CPU, String GPU, String PSU, String Case, String RAM, String Storage,
                     String Fans, String Cooler, String Motherboard){
         this.CPU = CPU;

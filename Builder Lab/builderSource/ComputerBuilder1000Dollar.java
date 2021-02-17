@@ -1,3 +1,6 @@
+/**
+ * Basic 1000 dollar mid-ranged PC build
+ */
 public class ComputerBuilder1000Dollar implements ComputerBuilder{
     private String CPU, GPU, PSU, Case, RAM, Storage, Fans, Cooler, Motherboard;
 

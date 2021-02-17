@@ -4,14 +4,18 @@ import java.util.Scanner;
 public class builderMain {
     private static Computer computer;
 
+    /**
+     * Standard main method to demonstrate our code
+     * @param args ignored
+     */
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
-
+        //Creating the builders
         ComputerBuilder builder500Dollar = new ComputerBuilder500Dollar();
         ComputerBuilder builder1000Dollar = new ComputerBuilder1000Dollar();
         ComputerBuilder builder1500Dollar = new ComputerBuilder1500Dollar();
-
+        //Creating all of the directors and passing the relevant builder to each
         Director director500Dollar = new Director(builder500Dollar);
         Director director1000Dollar = new Director(builder1000Dollar);
         Director director1500Dollar = new Director(builder1500Dollar);
@@ -20,6 +24,7 @@ public class builderMain {
 
         int option = scanner.nextInt();
 
+        //In the switch, different builders get their result (a computer) and save it to the member computer variable
         switch(option) {
             case 1:
                 director500Dollar.construct();
@@ -40,6 +45,7 @@ public class builderMain {
         boolean dialogEnd = false;
         String answer = "";
         scanner = new Scanner(System.in);
+        //Basic dialog sequence allowing a user to change each part of the computor if they would so choose to do so
         while(!dialogEnd){
             System.out.println("The current configuration: \n");
             computer.printConfig();
@@ -64,6 +70,10 @@ public class builderMain {
         }
     }
 
+    /**
+     * Change part dialog sequence
+     * @param scanner scanner which takes System.in as its input
+     */
     public static void changePart(Scanner scanner){
         String answer = scanner.nextLine();
         System.out.println("What would you like to change this part to?");
