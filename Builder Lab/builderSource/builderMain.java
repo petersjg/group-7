@@ -31,7 +31,6 @@ public class builderMain {
                 computer = builder500Dollar.getResult();
                 computer.printConfig();
                 computer = builder500Dollar.getResult();
-                computer.printConfig();
                 break;
             case 2:
                 director1000Dollar.construct();
